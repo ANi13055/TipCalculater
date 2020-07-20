@@ -6,42 +6,39 @@
     <title>Tip Calculator</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
+    <h2 class="main-title">Tip Calculator</h2>
     <form class="form">
       <!-- bill amount -->
-      <label for="amount" class="bill">Bill</label>
-      <br />
-      <input class="amount" id="amount" type="text" value="0" />
-      <br /><br />
+      <div class="bill-title">Bill</div>
+      <input class="bill-value" type="text" value="25" />
 
       <!-- tip in % -->
-      <label for="tip" class="tip"> Tip <span>%</span> </label>
-      <br />
+      <div class="tip-title">Tip <span>%</span></div>
       <button class="btn tip-decrease">-</button>
-      <input type="text" class="tip-value" id="tip" value="0" />
+      <input type="text" class="tip-value" value="15" />
       <button class="btn tip-increase">+</button>
-      <br /><br />
 
       <!-- number of people -->
-      <label class="numofpeople" for="numofpeople">Number of People</label>
-      <br />
-      <button class="btn minus-btn">-</button>
-      <input class="people-count" id="numofpeople" type="text" value="1" />
-      <button class="btn plus-btn">+</button>
+      <div class="people-count-title">Number of People</div>
+      <button class="btn people-decrease">-</button>
+      <input class="people-count" type="text" value="1" />
+      <button class="btn people-increase">+</button>
     </form>
-    <br />
 
-    <button class="generate">Generate</button>
-    <br /><br />
+    <!-- bill generate button -->
+    <button class="btn btn-generate">Generate</button>
 
+    <!-- total tip bill amount -->
     <div class="total-tip">
       <div class="tip-box">
         <p class="tip-title">Tip <span class="per-person"></span></p>
-        <h3 id="tip-amount">0 $</h3>
+        <h3 class="tip-amount">0 $</h3>
       </div>
       <div class="bill-box">
         <p class="total-title">Total <span class="per-person"></span></p>
-        <h3 id="total-amount">0 $</h3>
+        <h3 class="total-amount">0 $</h3>
       </div>
     </div>
 
