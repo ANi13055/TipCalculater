@@ -8,39 +8,41 @@
   </head>
 
   <body>
-    <h2 class="main-title">Tip Calculator</h2>
-    <form class="form">
-      <!-- bill amount -->
-      <div class="bill-title">Bill</div>
-      <input class="bill-value" type="text" value="25" />
+    <section>
+      <h2 class="main-title">Tip Calculator</h2>
+      <form class="form">
+        <!-- bill amount -->
+        <div class="bill-title">Bill</div>
+        <input class="bill-value" type="text" value="0" />
 
-      <!-- tip in % -->
-      <div class="tip-title">Tip <span>%</span></div>
-      <button class="btn tip-decrease">-</button>
-      <input type="text" class="tip-value" value="15" />
-      <button class="btn tip-increase">+</button>
+        <!-- tip in % -->
+        <div class="tip-title">Tip <span>%</span></div>
+        <input type="text" class="tip-value" value="0" />
+        <button class="btn tip-decrease">-</button>
+        <button class="btn tip-increase">+</button>
 
-      <!-- number of people -->
-      <div class="people-count-title">Number of People</div>
-      <button class="btn people-decrease">-</button>
-      <input class="people-count" type="text" value="1" />
-      <button class="btn people-increase">+</button>
-    </form>
+        <!-- number of people -->
+        <div class="people-count-title">Number of People</div>
+        <button class="btn people-decrease">-</button>
+        <input class="people-count" type="text" value="1" />
+        <button class="btn people-increase">+</button>
+      </form>
 
-    <!-- bill generate button -->
-    <button class="btn btn-generate">Generate</button>
+      <!-- bill generate button -->
+      <button class="btn btn-generate">Generate</button>
 
-    <!-- total tip bill amount -->
-    <div class="total-tip">
-      <div class="tip-box">
-        <p class="tip-title">Tip <span class="per-person"></span></p>
-        <h3 class="tip-amount">0 $</h3>
+      <!-- total tip bill amount -->
+      <div class="total-tip">
+        <div class="tip-box">
+          <p class="tip-title">Tip <span class="per-person"></span></p>
+          <h3 class="tip-amount">0 $</h3>
+        </div>
+        <div class="bill-box">
+          <p class="total-title">Total <span class="per-person"></span></p>
+          <h3 class="total-amount">0 $</h3>
+        </div>
       </div>
-      <div class="bill-box">
-        <p class="total-title">Total <span class="per-person"></span></p>
-        <h3 class="total-amount">0 $</h3>
-      </div>
-    </div>
+    </section>
 
     <script src="js/app.js"></script>
   </body>
