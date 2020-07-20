@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form class="form">
+      <!-- bill amount -->
+      <label for="amount" class="bill">Bill</label>
+      <br />
+      <input class="amount" id="amount" type="text" value="0" />
+      <br /><br />
+
+      <!-- tip in % -->
+      <label for="tip" class="tip"> Tip <span>%</span> </label>
+      <br />
+      <button class="btn tip-decrease">-</button>
+      <input type="text" class="tip-value" id="tip" value="0" />
+      <button class="btn tip-increase">+</button>
+      <br /><br />
+
+      <!-- number of people -->
+      <label class="numofpeople" for="numofpeople">Number of People</label>
+      <br />
+      <button class="btn minus-btn">-</button>
+      <input class="people-count" id="numofpeople" type="text" value="1" />
+      <button class="btn plus-btn">+</button>
+    </form>
+    <br />
+
+    <button class="generate">Generate</button>
+    <br /><br />
+
+    <div class="total-tip">
+      <div class="tip-box">
+        <p class="tip-title">Tip <span class="per-person"></span></p>
+        <h3 id="tip-amount">0 $</h3>
+      </div>
+      <div class="bill-box">
+        <p class="total-title">Total <span class="per-person"></span></p>
+        <h3 id="total-amount">0 $</h3>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

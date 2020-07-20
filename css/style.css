@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+}
+
+input {
+  text-align: center;
+}
+
+span {
+  font-size: 0.7em;
+}
+
+table {
+  border-collapse: collapse;
+}
