@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background: #252525;
+  font-family: "poppins", sans-serif;
+}
+
+section {
+  border: 1px solid #ffffff;
+  padding: 50px 30px;
+  border-radius: 5px;
+}
+
+section .main-title {
+  margin: 0 0 25px;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+section .form {
+  margin: 10px 0 20px;
+}
+
+section .form .subtitle {
+  margin: 15px 0 0;
+}
+
+section .form .input-box {
+  margin: 5px 0;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 1em;
+  border: none;
+}
+
+section .form .bill-value {
+  width: 100%;
+}
+
+section .form .btn {
+  font-size: 1em;
+  padding: 3px;
+  width: 25px;
+  background-color: springgreen;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+section .btn {
+  width: 100%;
+  padding: 3px;
+  font-size: 1em;
+  border: none;
+  background-color: #ff3232;
+  color: #ffffff;
+}
+
+section .total-tip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .tip-box,
+section .bill-box {
+  padding: 3px;
+  margin: 20px 0 0;
+  width: 45%;
+  background-color: #60a0f4;
+  text-align: center;
+}
+
+section span {
+  margin: 5px 0;
+  font-size: 0.7em;
+}
+/*# sourceMappingURL=style.css.map */
